@@ -1,6 +1,7 @@
 {
   "version": "0.0.1-beta",
   "name": "react-event-bus",
+  "author": "disflyer",
   "files": [
     "dist"
   ],
