@@ -4,7 +4,7 @@ class EventBus {
   emit(id: IdKey, params?: any) {
     const cache: Function[] = this.events.get(id)
     if (!cache) {
-      return
+      return console.warn(`[${id}]`, 'no event listening')
     }
     cache.forEach((cb) => cb(params))
   }
