@@ -1,16 +1,16 @@
 {
   "version": "0.0.1-beta",
-  "name": "react-event-bus",
+  "name": "event-bus",
   "author": "disflyer",
   "files": [
     "dist"
   ],
-  "main": "./dist/react-event-bus.umd.js",
-  "module": "./dist/react-event-bus.es.js",
+  "main": "./dist/event-bus.umd.js",
+  "module": "./dist/event-bus.es.js",
   "exports": {
     ".": {
-      "import": "./dist/react-event-bus.es.js",
-      "require": "./dist/react-event-bus.umd.js"
+      "import": "./dist/event-bus.es.js",
+      "require": "./dist/event-bus.umd.js"
     }
   },
   "scripts": {
