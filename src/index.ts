@@ -3,6 +3,9 @@ class EventBus {
   events = new Map()
   emit(id: IdKey, params?: any) {
     const cache: Function[] = this.events.get(id)
+    if (!cache) {
+      return
+    }
     cache.forEach((cb) => cb(params))
   }
 
