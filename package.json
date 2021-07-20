@@ -5,6 +5,7 @@
   "files": [
     "dist"
   ],
+  "keywords": ["eventbus", "react-event-bus", "react-emmiter", "emmiter", "event-emmiter"],
   "main": "./dist/@disflyer/event-bus.umd.js",
   "module": "./dist/@disflyer/event-bus.es.js",
   "exports": {
