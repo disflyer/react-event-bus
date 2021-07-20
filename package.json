@@ -12,12 +12,12 @@
     "emmiter",
     "event-emmiter"
   ],
-  "main": "./dist/@disflyer/event-bus.umd.js",
-  "module": "./dist/@disflyer/event-bus.es.js",
+  "main": "./dist/event-bus.umd.js",
+  "module": "./dist/event-bus.es.js",
   "exports": {
     ".": {
-      "import": "./dist/@disflyer/event-bus.es.js",
-      "require": "./dist/@disflyer/event-bus.umd.js"
+      "import": "./dist/event-bus.es.js",
+      "require": "./dist/event-bus.umd.js"
     }
   },
   "scripts": {
