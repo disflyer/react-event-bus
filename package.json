@@ -1,11 +1,17 @@
 {
-  "version": "0.0.1-beta",
+  "version": "0.0.2-beta",
   "name": "@disflyer/event-bus",
   "author": "disflyer",
   "files": [
     "dist"
   ],
-  "keywords": ["eventbus", "react-event-bus", "react-emmiter", "emmiter", "event-emmiter"],
+  "keywords": [
+    "eventbus",
+    "react-event-bus",
+    "react-emmiter",
+    "emmiter",
+    "event-emmiter"
+  ],
   "main": "./dist/@disflyer/event-bus.umd.js",
   "module": "./dist/@disflyer/event-bus.es.js",
   "exports": {
